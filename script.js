@@ -1,5 +1,5 @@
 var age = prompt("What is your age?");
 
-var math = age * 365;
+var days = age * 365.25;
 
-console.log("You are " + math + " days old.");
+alert(age + " years is roughly " + days + " days.");
